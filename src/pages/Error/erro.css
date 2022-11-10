@@ -1,0 +1,29 @@
+
+.error{
+  display:flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+.error h1{
+  margin-bottom: 6px;
+}
+.error p{
+  font-style: italic;
+}
+.error .link{
+  background-color:rgba(255,255,255, 0.6);
+  padding:4px 16px;
+  margin-top: 14px;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-color,transform 0.5s;
+}
+.error .link:hover{
+  background-color:rgba(255,255,255);
+  transform: scale(1.05);
+}
